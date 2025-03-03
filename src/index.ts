@@ -47,7 +47,7 @@ async function startBot() {
   try {
     console.log("Starting bot...");
     console.log("Connecting to MongoDB...");
-    const mongoURI = process.env.MONGODB_URI || "";
+    const mongoURI = process.env.MONGOOSE_URL || "";
     
     try {
       // Add a timeout to the MongoDB connection to fail faster
