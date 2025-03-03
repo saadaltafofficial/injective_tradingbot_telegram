@@ -47,7 +47,7 @@ async function startBot() {
   try {
     console.log("Starting bot...");
     console.log("Connecting to MongoDB...");
-    const mongoURI = process.env.MONGODB_URI || "mongodb+srv://saad:Beenco.%40123@cluster0.gmaqi.mongodb.net/injectivetradingbot";
+    const mongoURI = process.env.MONGODB_URI || "";
     
     try {
       // Add a timeout to the MongoDB connection to fail faster
